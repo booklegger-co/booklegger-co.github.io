@@ -146,8 +146,7 @@
 						$submit.disabled = true;
 
 					// Process form.
-
-					$form.submit();
+					// .. just nothing ..
 
 					// but there's enough here to piece together a working AJAX submission call that does.
 						window.setTimeout(function() {
