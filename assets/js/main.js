@@ -36,9 +36,7 @@
 
 					// Images (in the format of 'url': 'alignment').
 						images: {
-							'images/bg01.jpg': 'center',
-							'images/bg02.jpg': 'center',
-							'images/bg03.jpg': 'center'
+							'images/banner.png': 'center'
 						},
 
 					// Delay.
@@ -148,7 +146,9 @@
 						$submit.disabled = true;
 
 					// Process form.
-					// Note: Doesn't actually do anything yet (other than report back with a "thank you"),
+
+					$form.submit();
+
 					// but there's enough here to piece together a working AJAX submission call that does.
 						window.setTimeout(function() {
 
